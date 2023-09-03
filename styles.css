@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada&family=Cairo+Play:wght@700&family=Calligraffitti:wght@400&family=Montserrat:wght@600&display=swap');
+
+/* Media Query for responsive design */
+@media screen and (max-width: 768px) {
+    
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background-image.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color:whitesmoke;
+    line-height: 1.6;
+}
+
+header {
+    width: 768px;
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    color: #fff;
+}
+
+.slogan{
+    color: rgb(208, 208, 250);
+    text-align: center;
+}
+
+.logo{
+    margin:0px 0px 60px 0px;
+}
+
+
+nav ul {
+    text-align: center;
+     padding: 10px 0;
+ }
+  nav ul li {
+      display: inline-flex;
+      justify-content: center;
+      margin-right: 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav{
+    width: 768px;
+    background-image: url(nav-image.PNG);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+section {
+    width: 715px;
+    padding: 30px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    /* position: relative; */
+    /* max-width: 0px; */
+    height: 200px;
+    margin: 30px 0px 0px 128px ;
+}
+#menu-list{
+    text-align: center;
+    color: #333;
+}
+
+.menu-header,.list{
+    background-color: rgb(231, 226, 226);
+    border-radius: 20px;
+    padding: 5px;
+}
+.menu-header{
+    height: 60px;
+}
+.list{
+    height: 50px;
+}
+
+.first-list{
+    margin-top: 10px;
+}
+
+.slide {
+    display: none;
+}
+img {
+    width: 500px;
+}
+.next-button {
+    display: inline-flex;
+    gap: 560px;
+    justify-content: space-between;
+    position: absolute;
+    top:1200px;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.prev, .next{
+    background-color: #504f4f;
+    border-radius: 7px;
+    padding:30px;
+    text-decoration: none;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+#contact{
+    margin-top: 620px;
+}
+
+/* Style the footer */
+footer {
+    width: 768px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+button{
+    transform: translateX(620%);
+    margin-bottom: 50px;
+}
+.designer{
+    font-size: 20px;
+    background: linear-gradient(to right, #990248,whitesmoke, #fce308 );
+    font-family: 'Calligraffitti', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-image: url(background-image.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color:whitesmoke;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    color: #fff;
+}
+.slogan{
+    color: rgb(208, 208, 250);
+    text-align: center;
+}
+.logo{
+    margin:0px 0px 60px 0px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+nav{
+    background-image: url(nav-image.PNG);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+/* Style the sections */
+section {
+    padding: 30px;
+}
+
+/* Style the contact links */
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #ff8c00;
+    font-weight: bold;
+}
+.slideshow-container {
+    /* position: relative; */
+    max-width: 500px;
+    /* height: 200px; */
+    margin: 30px 0px 0px 400px ;
+}
+#menu-list{
+    background-image: url(about-pic.PNG);
+    text-align: center;
+    color: #333;
+}
+
+.menu-header,.list{
+    background-color: rgb(231, 226, 226);
+    border-radius: 20px;
+    padding: 5px;
+}
+.first-list{
+    margin-top: 10px;
+}
+.slide {
+    display: none;
+}
+img {
+    width: 100%;
+}
+.prev, .next {
+    position: absolute;
+    top:1000px;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+#contact{
+    margin-top: 100px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+button{
+    transform: translateX(950%);
+    margin-bottom: 50px;
+}
+.designer{
+    font-size: 20px;
+    background: linear-gradient(to right, #990248,whitesmoke, #fce308 );
+    font-family: 'Calligraffitti', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+}

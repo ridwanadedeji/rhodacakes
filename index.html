@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHODA Cakes N More</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Welcome to RHODA Cakes N More</h1>
+            <p class="slogan">Indulge in the Sweetness!</p>
+        </div>
+        <div class="logo-container">
+           <img class="logo" style="width: 80px;height: 35px; border-radius: 50%;" src="rhoda-logo.PNG" alt="logo picture">
+        </div>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="menu"><a href="#menu">Menu</a></li>
+            <li class="contact"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to RHODA Cakes & More! Our kitchen is where dreams become sweet realities. We take pride in crafting mouthwatering pastries, cakes, and delightful treats that leave you craving for more.
+
+            Our secret recipe? It's all about using the freshest, top-quality ingredients, blended with an extra dose of passion and care. Every bite is a testament to our dedication to baking happiness into your life.
+            
+            At RHODA, we believe in the joy of sharing moments over sweet indulgences. Whether you're celebrating life's milestones or simply savoring the everyday, we're here to make those moments unforgettable. Join us in our world of flavors, and let's make life a little sweeter, one bite at a time. We bake happiness.</p>
+    </section>
+
+    <section id="menu-list">
+        <h2 class="menu-header">Menu</h2>
+        <ul>
+            <li class="list first-list"> <strong> Cakes:</strong> Vanilla cake, Red velvet cake, Carrot cake, Cheesecake, Fruitcake</li>
+            <li class="list"> <strong>Pastries:</strong> Croissants (Plain, Chocolate, Almond), Puff Pastry Twists (Palmiers), Strudel (Apple, Cherry, etc.)</li>
+            <li class="list"> <strong>Cookies:</strong> Oatmeal raisin cookies, Peanut butter cookies, Macarons, Sugar cookies (decorated for holidays) </li>
+            <li class="list"> <strong>Breads and Rolls:</strong> Dinner Rolls, French Bread, Sausage Rolls, Fish Rolls, Sweet Buns & Puff puff</li>
+            <li class="list"> <strong>Cupcakes:</strong> Decorative cupcakes for special occasions, Assorted flavors (chocolate, vanilla, lemon, etc.) </li>
+        </ul>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="image1.PNG" alt="Image 1">
+        </div>
+        <div class="slide fade">
+            <img src="image2.PNG" alt="Image 2">
+        </div>
+        <div class="slide fade">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image4.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image5.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image6.PNG" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image7.PNG" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image6.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image7.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="image8.jpg" alt="Image 3">
+        </div>
+    </div>
+    <div class="next-button">
+           <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+           <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us through any of our social media channels or drop us an email.</p>
+        <ul>
+            <li><a href="mailto:adedejiridwan43@gmail.com">Email</a></li>
+            <li><a href="https://web.facebook.com/rophyheartdarmhilolar.kolapo" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/wura_ola18/" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=2349069737407&text=Hi%20there!%20%F0%9F%91%8B%20I%27ve%20heard%20fantastic%20things%20about%20your%20bakery%20and%20your%20delicious%20creations.%20I%27m%20hoping%20to%20make%20a%20special%20request%20for%20an%20upcoming%20event.%20Could%20we%20discuss%20the%20details%20and%20explore%20how%20you%20can%20help%20bring%20my%20dessert%20dreams%20to%20life%3F" target="_blank">WhatsApp</a></li>
+            <li><a href="#">+234-9151-503-160</a></li>
+        </ul>
+    </section>
+    <button onclick="showMessage()">click me</button>
+
+    <footer>
+        <p>&copy; 2023 RHODA Cakes N More | Designed by  <a class="designer" href="https://api.whatsapp.com/send?phone=2347068376372&text=Hi%20there!%20%F0%9F%91%8B%20I%20came%20across%20your%20work%20and%20I'm%20impressed%20by%20your%20skills%20as%20a%20developer.%20I%20have%20an%20exciting%20project%20in%20mind%20and%20I'd%20love%20to%20collaborate%20with%20you%20to%20bring%20it%20to%20life!%20Let's%20chat%20on%20WhatsApp%20and%20discuss%20the%20details.%20Looking%20forward%20to%20connecting%20with%20you!%20%F0%9F%98%8A%F0%9F%9A%80%20"
+            target="_blank" rel="noopener noreferrer">&lt;/RedWine&gt;</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Sample JavaScript function
+        function showMessage() {
+            alert("Thank you for visiting RHODA cakes N more!");
+        }
+    </script>
+</body>
+</html>
