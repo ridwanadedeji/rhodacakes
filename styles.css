@@ -265,10 +265,10 @@ section ul li a {
     /* height: 200px; */
     margin: 30px 0px 0px 400px ;
 }
-#menu-list{
+#menu{
     background-image: url(about-pic.PNG);
     text-align: center;
-    color: #333;
+    color:  #131010;
 }
 
 .menu-header,.list{
